@@ -1,5 +1,5 @@
 let counterResult = 0;
-let counterValue = document.querySelector('#value');
+let counterValue = document.querySelector('span');
 const decrement =()=> {--counterValue.textContent;};
 const decrementBtn = document.querySelector('[data-action="decrement"]');
 decrementBtn.addEventListener('click', decrement);
